@@ -1,10 +1,15 @@
 <template>
     <div class="flex justify-evenly items-center w-[100%] h-[42vh] ">
         <router-link to="/today" class="h-[80%] w-[20%] bg-white">
-            <div ></div>
+            <div>today</div>
         </router-link>
-        <div class="h-[80%] w-[20%] bg-white"></div>
-        <div class="h-[80%] w-[20%] bg-white"></div>
+        <router-link to="/today" class="h-[80%] w-[20%] bg-white">
+            <div>calendar</div>
+        </router-link>
+        <router-link to="/gallery" class="h-[80%] w-[20%] bg-white">
+            <div>gallery</div>
+        </router-link>
+
 
     </div>
 </template>

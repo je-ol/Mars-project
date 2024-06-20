@@ -1,12 +1,16 @@
 <template>
     <nav class="flex justify-around items-center text-white bg-slate-500/50 py-2">
-        <div class="">
-            {{ logo }}
-        </div>
+        <router-link to="/" >
+            <div class="text-2xl font-bold">
+                {{ logo }}
+            </div>
+        </router-link>
 
         <div>
-            <ul class="flex gap-40 border-2 border-grey py-4 px-16 rounded-md">
-                <li>Home</li>
+            <ul class="flex gap-40 border-2 border-grey py-2 px-16 rounded-md">
+                <li>
+                    <router-link to="/">Home</router-link>
+                </li>
                 <li>About</li>
                 <li>Contact</li>
             </ul>
@@ -20,6 +24,8 @@
 </template>
 
 <script>
+import router from '../router/router';
+
     export default {
         name: 'Navbar',
         data() {
