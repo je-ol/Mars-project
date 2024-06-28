@@ -1,5 +1,5 @@
 <template>
-    <nav class="flex justify-around items-center text-white bg-slate-500/50 py-2">
+    <nav class="flex h-[8vh] justify-around items-center text-white bg-slate-500/50 py-2">
         <router-link to="/" >
             <div class="text-2xl font-bold">
                 {{ logo }}
@@ -16,9 +16,15 @@
             </ul>
         </div>
         <div class="flex gap-4 items-center">
-            <button class="bg-white/50 h-[100%] py-1 px-4 rounded-sm">LOGIN</button>
-            <button class="bg-white/50 h-[100%] py-1 px-4 rounded-sm">REGISTER</button>
-            <img src="" alt="" class="h-[48px] w-[48px] rounded-full bg-white/50 border-2 border-white">
+            <router-link to="/login">
+                <button class="bg-white/50 h-[100%] py-1 px-4 rounded-sm">LOGIN</button>
+            </router-link>
+            <router-link to="/register">
+                <button class="bg-white/50 h-[100%] py-1 px-4 rounded-sm">REGISTER</button>
+            </router-link>
+            <router-link to="/profile">
+                <img src="" alt="" class="h-[48px] w-[48px] rounded-full bg-white/50 border-2 border-white">
+            </router-link>
         </div>
     </nav>
 </template>
