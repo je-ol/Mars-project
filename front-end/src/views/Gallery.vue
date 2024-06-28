@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-[76vh] mt-[40px] px-[12vw] bg-white/10">
+    <div class="min-h-[76vh] my-[2rem] px-[12vw] bg-white/10">
         <div class="flex w-[70%] justify-evenly py-[0.75rem] rounded-md bg-white/10 my-[2rem]">
             <p>Title</p>
             <p>Last Edited</p>

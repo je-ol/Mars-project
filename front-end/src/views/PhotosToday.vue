@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-[76vh] mt-[40px] px-[12vw] bg-white/10">
+    <div class="min-h-[76vh] my-[2rem]  px-[12vw] bg-white/10">
         <div class="flex justify-between  text-white">
             <div class="flex w-[30%] justify-evenly py-[0.75rem] rounded-md bg-white/10">
                 <p>Earth date</p>
