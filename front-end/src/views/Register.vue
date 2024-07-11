@@ -1,6 +1,6 @@
 <template>
     <div class="flex w-full h-[77vh] bg-white/30">
-        <div class="w-[26%] h-[80%] bg-black/50 m-auto py-[2%] px-[3%] rounded-md text-white">
+        <div class="w-[26%] h-[80%] lg:h-[68%] bg-black/50 m-auto py-[2%] px-[3%] rounded-md text-white">
             <div class="flex justify-between h-[12%] font-bold">
                 <button class="py-1 px-[1.25rem] bg-white/20">LOGIN</button>
                 <button class="py-1 px-[1.25rem] bg-white/20">NEW MEMBER</button>

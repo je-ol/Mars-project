@@ -10,7 +10,7 @@
                 <p>icon</p>
             </div>
         </div>
-        <div class="flex flex-wrap justify-evenly gap-[4rem]">
+        <div class="flex flex-wrap justify-evenly items gap-[3rem]">
             <img src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="" class="w-[30%] h-[30%]">
             <img src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="" class="w-[30%] h-[30%]">
             <img src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="" class="w-[30%] h-[30%]">
