@@ -3,7 +3,7 @@
     <PageThumbs />
     <LatestNews />
     <Message />
-  </template>
+</template>
 
 <script>
 import Hero from '../components/Hero.vue';

@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 body {
-    background-color: #240078;
+    background: linear-gradient(135deg, hsla(243, 100%, 17%, 1) 0%, hsla(284, 100%, 18%, 1) 100%);
     font-family: 'Poppins', sans-serif;
 }

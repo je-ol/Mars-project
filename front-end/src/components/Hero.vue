@@ -1,5 +1,5 @@
 <template>
-    <div class="carousel relative w-full h-[60vh] overflow-hidden">
+    <div class="carousel relative w-full h-[30rem] overflow-hidden">
       <div
         class="carousel-item absolute w-full h-full transition-opacity duration-500"
         v-for="(slide, index) in slides"
@@ -27,21 +27,21 @@ export default {
       currentSlide: 0,
       slides: [
         {
-          bg: 'bg-yellow-500',
+          bg: 'bg-white/10',
           title: 'Slide 1',
           description: 'Description for Slide 1',
         },
         {
-          bg: 'bg-red-500',
+          bg: 'bg-white/20',
           title: 'Slide 2',
           description: 'Description for Slide 2',
         },
         {
-          bg: 'bg-blue-500',
+          bg: 'bg-white/30',
           title: 'Slide 3',
           description: 'Description for Slide 3',
         },
-        // Add more slides as needed
+        // Can add more slides here
       ],
     };
   },

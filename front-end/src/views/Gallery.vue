@@ -1,6 +1,6 @@
 <template>
-    <div class="min-h-[76vh] my-[2rem] px-[12vw] bg-white/10">
-        <div class="flex w-[70%] justify-evenly py-[0.75rem] rounded-md bg-white/10 my-[2rem]">
+    <div class="min-h-[76vh] py-[2rem] px-[12vw] bg-white/10">
+        <div class="flex w-[70%] justify-evenly py-[0.75rem] rounded-md bg-white/30 my-[2rem]">
             <p>Title</p>
             <p>Last Edited</p>
             <div class="flex w-[40%] justify-evenly bg-white/10">
