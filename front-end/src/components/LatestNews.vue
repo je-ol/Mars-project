@@ -13,8 +13,26 @@
     </div>
 </template>
 
-<script>
-    export default {
-        name: 'LatestNews',	
+<script setup>
+import axios from 'axios';
+import { ref } from 'vue';
+
+    const news = ref([])
+    const fetchNews = async () => {
+        try {
+            const response = await axios.get('https://api.thenewsapi.com/v1/news/all?api_token=FxWVDl0pL3HYyTv3uTavGSv08uYKG5OU07zRJwZZ&search=mars', {
+
+            })
+        } catch (e) {
+            console.log('Error fetching news', e)
+        }
+
     }
+    
+</script>
+
+<script>
+export default {
+  name: 'LatestNews'
+};
 </script>
