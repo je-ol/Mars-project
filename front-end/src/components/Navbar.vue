@@ -1,5 +1,5 @@
 <template>
-    <nav class="flex h-[8vh] justify-around items-center text-white  py-2">
+    <nav class="flex h-[4rem] justify-around items-center text-white py-2">
         <router-link to="/" >
             <div class="text-2xl font-bold">
                 {{ logo }}
@@ -16,7 +16,7 @@
         </ul>
         </div>
 
-        <div class="flex gap-4 items-center">
+        <div class="flex gap-8 items-center">
             <router-link to="/login">
                 <button class="h-[100%] py-1 px-4 rounded-sm border-white border-2 hover:bg-white hover:text-[#040056] hover:font-bold">LOGIN</button>
             </router-link>

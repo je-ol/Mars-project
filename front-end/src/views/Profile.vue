@@ -26,14 +26,14 @@
             </div>
             <div class="w-[90%] h-[60%] bg-pink-300/40">
                 <h2>Favorite Collections</h2>
-                <div class="h-[40%] w-full flex bg-white/60">
+                <div class="h-[40%] w-full flex gap-2 bg-white/60">
                     <img src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="" class="w-[30%] h-full">
                     <img src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="" class="w-[30%] h-full">
                     <img src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="" class="w-[30%] h-full">
                     <img src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="" class="w-[30%] h-full">
                 </div>
                 <h2>Favorite articles</h2>
-                <div class="h-[40%] w-full flex bg-white/60">
+                <div class="h-[40%] w-full flex gap-2 bg-white/60">
                     <img src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="" class="w-[30%] h-full">
                     <img src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="" class="w-[30%] h-full">
                     <img src="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="" class="w-[30%] h-full">
