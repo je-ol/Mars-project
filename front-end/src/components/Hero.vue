@@ -8,7 +8,7 @@
         
         <div class="flex items-center">
           <!-- Text content -->
-          <div class="w-[40%] mt-[4rem] ml-[10rem] text-white">
+          <div class="w-[50%] mt-[4rem] ml-[10rem] text-white">
             <h1 class="text-[4rem]">{{ slide.title }}</h1>
             <p class="my-2"> {{ slide.description }}</p>
             <button class="py-1 px-4 my-[1rem] rounded-sm border-white border-2 hover:bg-white hover:text-[#040056] hover:font-bold">LEARN MORE</button>
@@ -30,6 +30,7 @@
   <script>
   import pathfinder from '../assets/pathfinder.png'
   import current from '../assets/current.png'
+  import future from '../assets/future.png'
 
 export default {
   name: 'Hero',
@@ -42,7 +43,7 @@ export default {
           title: 'PATHFINDER',
           description: 'NASA’s Mars Pathfinder successfully demonstrated a new way to safely land on the Red Planet and deliver the first-ever robotic rover, Sojourner, to the Martian surface. At a time when the Internet was still in its infancy, the mission\'s activities captured millions of eyes as people remained glued to their computers to watch anxious and excited engineers and scientists in Mission Control, and to view Mars images transmitted down to Earth.',
           image: pathfinder,
-          opacity: 0.5
+          opacity: 0.7
         },
         {
           bg: 'bg-white/0',
@@ -55,8 +56,8 @@ export default {
           bg: 'bg-white/0',
           title: 'THE FUTURE',
           description: 'The future of Mars exploration is promising, with upcoming missions like NASA’s Mars Sample Return campaign aiming to bring Martian samples back to Earth by the 2030s. Ambitious plans from SpaceX envision human colonization, while international collaborations, such as ESA\'s ExoMars rover, are set to advance our understanding of Mars\' potential to support life. These efforts aim to pave the way for sustained human presence on Mars and further unravel the mysteries of the Red Planet.',
-          image: pathfinder,
-          opacity: 0.8
+          image: future,
+          opacity: 0.6
         },
         // Can add more slides here
       ],
@@ -82,7 +83,7 @@ export default {
   },
   mounted() {
     // Optional: Auto-play functionality
-    this.autoPlay = setInterval(this.nextSlide, 10000);
+    this.autoPlay = setInterval(this.nextSlide, 8000);
   },
   beforeDestroy() {
     clearInterval(this.autoPlay);
